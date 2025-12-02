@@ -1,8 +1,42 @@
 *{
-  margin: 0;
+  margin-left: 5px;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-body{}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('/celular.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 40px;
+}
+
+input{
+  padding: 10px;
+  width: 170px;
+  border-radius: 8px;
+  border: none;
+  border: 2px solid rgba(100, 36, 36, 0.815);
+  font-size: 14px;
+
+}
+
+
+
+@media (width >= 768px){
+  body{
+    background-image: url('/computador.jpg');
+  }
+
+  input{
+    width: 275px;
+    font-size: 15px;
+
+  }
+}
