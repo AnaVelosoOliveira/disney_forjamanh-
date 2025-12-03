@@ -3,12 +3,13 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
- background-color: rgba(228, 135, 28, 0.589);
+ background-color: rgba(228, 135, 28, 0.445);
  padding: 10px;
  border: 2px solid black;
  border-radius: 16px;
  gap: 20px;
  transition: all 200ms ease-in-out;
+ margin-right: 20px;
  
 }
 
@@ -16,11 +17,14 @@
     box-shadow:rgba(0, 0, 0, 0.466) 0px 54px 55px, rgba(0, 0, 0, 0.932) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .roundImg{
+    justify-content: center;
     width: auto;
-    height: 400px;
+    height: 235px;
     border-radius: 8px;
 
 }
+
+
 
 
 @media (width >= 768px){
@@ -30,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(190, 81, 190, 0.527);
+    background-color: rgba(190, 81, 190, 0.253);
     padding: 10px;
     border: 5px solid black;
     border-radius: 16px;
@@ -38,4 +42,15 @@
     transition: all 200ms ease-in-out;
 }
 
-  }
+.roundImg{
+    margin-left: -1px;
+    justify-content: center;
+    width: auto;
+    height: 235px;
+    border-radius: 8px;
+
+}
+
+
+}
+  

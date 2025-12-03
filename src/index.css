@@ -1,4 +1,5 @@
 *{
+
   margin-left: 5px;
   padding: 0;
   box-sizing: border-box;
@@ -18,12 +19,13 @@ body{
 }
 
 input{
+  margin-left: -5px;
   padding: 10px;
-  width: 170px;
+  width: 175px;
   border-radius: 8px;
   border: none;
   border: 2px solid rgba(100, 36, 36, 0.815);
-  font-size: 14px;
+  font-size: 13px;
 
 }
 

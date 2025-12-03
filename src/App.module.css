@@ -1,6 +1,6 @@
 .title{
     font-size: 4rem;
-    text-shadow: 0px 3px 20px rgb(240, 172, 25);
+    text-shadow: 0px 3px 20px rgba(196, 141, 24, 0.664);
     text-align: center;
     width: 100%;
     margin-top: 1rem;
@@ -34,5 +34,15 @@
     width: 100%;
     margin-top: 1rem;
 }
+
+.cardTitle{
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-shadow: 0px 3px 20px rgb(164, 219, 255);
+    width: 100%;
+    text-align: center;
+}
+
 
     }
