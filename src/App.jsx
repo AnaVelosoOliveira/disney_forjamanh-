@@ -11,7 +11,6 @@ function App() {
   useEffect(() => {
     api.get(`/character/?name=${searchName}&page=${searchPage}`).then((response) => {
       setData(response.data.data)
-      console.log(response.data.data)
     }).catch((error) => {
       console.error("NÃO FOI POSSÍVEL ACESSAR O API ", error)
     })
@@ -28,9 +27,11 @@ function App() {
       </div>
     
     <div className={s.wrapCards}>
-      {data.map((item) => {
+      {data.map((item, index) => {
         return(
-        <Card image={item.imageUrl} name={item.name}/>
+        <div key={index}>
+          <Card image={item.imageUrl} name={item.name}/>
+        </div>
         )
       })}
 
