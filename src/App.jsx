@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import s from './App.module.css'
 import { api } from './api/api'
-import { Card } from './components/Card.jsx'
+import  Card  from './components/card.jsx'
 
 function App() {
   const [data, setData] = useState([])

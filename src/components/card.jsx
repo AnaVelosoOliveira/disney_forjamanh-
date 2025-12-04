@@ -1,7 +1,7 @@
 import s from './card.module.css'
 
 
-export const Card = ({image, name, house}) => {
+function Card({image, name, house}){
     return(
         <div className={s.wrapCard}>
             {image ? <img className={s.roundImg} src={image} alt={name} /> : "Sem imagem"}
@@ -10,3 +10,5 @@ export const Card = ({image, name, house}) => {
         </div>
     )
 }
+
+export default Card
